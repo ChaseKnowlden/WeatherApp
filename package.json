@@ -1,6 +1,6 @@
 {
   "name": "weatherapp",
-  "homepage": "https://chaseknowlden.github.io/WeatherApp",
+  "homepage": "https://chaseknowlden.github.io/weatherapp",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -15,6 +15,7 @@
     "react-scripts": "3.3.1"
   },
   "scripts": {
+    "predeploy": "yarn build",
     "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
